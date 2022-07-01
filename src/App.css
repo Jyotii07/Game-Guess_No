@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+label{
+  font-size: 50px;
+  font-weight: 500;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgb(0, 6, 10);
+  text-shadow: 5px 2px 3px rgb(253, 252, 252);
+}
+input{
+  padding: 5px;
+  margin-top: 16vw;
+  border-radius: 50%;
+  text-align: center;
+  width: 7%;
+  background-color: rgb(211, 111, 111);
+  text-shadow: 2px 2px 5px rgb(253, 252, 252);
+  font-size: 55px;
+  font-family: cursive;
+ border: 2px groove red;
+
+}
+body{
+  background-image: radial-gradient(rgb(196, 66, 66), yellow, rgb(37, 223, 37), blue, black);
+  animation: body 5s infinite ease-in; 
+}
+@keyframes body{
+  0%{
+    background-image: radial-gradient(rgb(196, 66, 66), yellow, rgb(37, 223, 37), rgb(109, 109, 223), rgb(49, 47, 47));
+  }
+  20%{
+    background-image: radial-gradient(rgb(49, 47, 47),rgb(196, 66, 66)red, yellow, rgb(37, 223, 37), rgb(109, 109, 223) );
+  }
+  50%{
+    background-image: radial-gradient( rgb(109, 109, 223), rgb(49, 47, 47),rgb(196, 66, 66), yellow, rgb(37, 223, 37));
+  }
+  75%{
+    background-image:radial-gradient( rgb(37, 223, 37), rgb(109, 109, 223), rgb(49, 47, 47),rgb(196, 66, 66), yellow);
+  }
+  100%
+  {
+    background-image: radial-gradient(rgb(196, 66, 66), yellow, rgb(37, 223, 37), rgb(109, 109, 223), rgb(49, 47, 47));
+  }
+}
+.rs{
+  margin-bottom: 20vw;
+  color: black;
+  text-shadow: 2px 2px 10px white;
+  font-family: cursive;
+  font-size: 50px;
+}
